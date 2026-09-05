@@ -1,0 +1,7 @@
+services:
+  docs-app:
+    image: ghcr.io/yusufparker/openshort-docs:latest
+    container_name: openshort-docs
+    restart: always
+    ports:
+      - "3002:80"
